@@ -94,10 +94,10 @@ func (ctrl *UsersCtrl) Check_Users(c *gin.Context) {
 func (ctrl *UsersCtrl) Get_Cache(c *gin.Context) {
 	email := c.Query("email")
 	fmt.Println(email)
-	smtpHost := "smtp.qq.com"
-	smtpPort := "465"
-	smtpUser := "3052604797@qq.com"
-	smtpPass := "adjtfsdeseludfbf"
+	smtpHost :=  "**********"
+	smtpPort := "**********"
+	smtpUser :=  "**********"
+	smtpPass := "**********"
 
 	source := rand.NewSource(time.Now().UnixNano())
     r := rand.New(source)
